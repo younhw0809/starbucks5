@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <link rel="icon" href="./images/favicon.ico">
+  <title>Starbucks Korea</title>
+  <!-- reset css cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+  <!-- material icon cdn -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- swiper css cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <!-- lodash cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- gsap cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js" integrity="sha512-oJ8QbaQThQoJZ7oEv+29jfPM6CcP+zUxh3PKJs1vyOhx0UraUrE7PQgeItu3dOuCJyrzWpoYMsVjkkPEBzbUqw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/ScrollToPlugin.min.js" integrity="sha512-ukYFLV3Okix4ubCJJ5iVKQfLXreEyMqLJhhUYkkYrDgfN6mL+jSElhRmSTa5AfBzKWIBTy4ZvgO793If1CHEpw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- swiper js cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <!-- scroll magic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.9/ScrollMagic.min.js" integrity="sha512-zxvL9Jp2yrajKO62Na+Gk3k1kwQpkMxqYd7hFAMkzpVMWMIEwhbJN+hs4RXu4q7aHfSoUgTRJsOGGMwsXVEGvw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="./js/index.js"></script>
+</head>
+<body>
+  <!-- HEAD -->
+  <div id="head_layout">
+    <div class="inner">
+      <h1 class="logo">
+        <a href="/">
+          <img src="./images/starbucks_logo.png" alt="스타벅스 메인페이지">
+        </a>
+      </h1>
+      <!-- sub-menu -->
+      <div class="sub-menu">
+        <ul class="menu">
+          <li>
+            <a href="javascript:void(0)">Sign in</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">My Starbucks</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Custom Service & Ideas</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Find a Store</a>
+          </li>
+        </ul>
+        <div class="search">
+          <input type="text" />
+          <span class="material-symbols-rounded">
+          search
+          </span>
+        </div>
+      </div>
+      <!-- main-menu -->
+      <ul class="main-menu">
+        <li class="item">
+          <div class="item-name">COFFEE</div>
+          <div class="item-contents">
+            <div class="contents-menu">
+              <!-- 2depth menu -->
+               <ul class="inner">
+                <li>
+                  <p>커피</p>
+                  <!-- 3depth -->
+                  <ul>
+                    <li>스타벅스 원두</li>
+                    <li>스타벅스 원두</li>
+                    <li>스타벅스 원두</li>
+                    <li>스타벅스 원두</li>
+                  </ul>
+                </li>
+                <li>
+                  <p>커피이야기</p>
+                  <!-- 3depth -->
+                  <ul>
+                    <li>스타벅스 원두</li>
+                    <li>스타벅스 원두</li>
+                    <li>스타벅스 원두</li>
+                    <li>스타벅스 원두</li>
+                  </ul>
+                </li>
+                <li>
+                  <p>커피3</p>
+                  <!-- 3depth -->
+                  <ul>
+                    <li>스타벅스 원두</li>
+                    <li>스타벅스 원두</li>
+                    <li>스타벅스 원두</li>
+                    <li>스타벅스 원두</li>
+                  </ul>
+                </li>
+               </ul>
+            </div>
+
+          </div>
+        </li>
+        <li class="item">
+          <div class="item-name">MENU</div>
+          <div class="item-contents">2</div>
+        </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <li class="item">
+          <div class="item-name">COFFEE</div>
+          <div class="item-contents"></div>
+        </li>
+        <li class="item">
+          <div class="item-name">MENU</div>
+          <div class="item-contents"></div>
+        </li>
+        <li class="item">
+          <div class="item-name">COFFEE</div>
+          <div class="item-contents"></div>
+        </li>
+        <li class="item">
+          <div class="item-name">MENU</div>
+          <div class="item-contents"></div>
+        </li>
+      </ul>
+      <!-- BADGES -->
+      <div class="badges">
+        <div class="badge">
+          <a href="">
+            <img src="./images/badge5.png" alt="">
+          </a>
+        </div>
+        <div class="badge">
+          <img src="./images/badge4.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- BODY -->
+  <div id="body_layout">
+    <!-- BANNER -->
+    <div class="banner">
+      <div class="inner">
+        <div class="title">
+          <img src="./images/visual_title2.png" class="fade-in" alt="glaze your day">
+          <a href="javascript:void(0)" class="btn btn-white fade-in">자세히보기</a>
+        </div>
+        <div class="cups">
+          <img class="cup1 fade-in" src="./images/2026_pre_autumn_top_drink01.png" alt="블랙 글레이즈드 라떼">
+          <img class="cup2 fade-in" src="./images/2026_pre_autumn_top_drink02.png" alt="말차 글레이즈드 티 라떼">
+          <img class="cup3 fade-in" src="./images/2026_pre_autumn_top_drink03.png" alt="호지 글레이즈드 티 라떼">
+          <img class="cup4 fade-in" src="./images/2026_pre_autumn_top_drink04.png" alt="글레이즈드 폼 블랙티">
+          <img class="cup5 fade-in" src="./images/2026_pre_autumn_top_drink05.png" alt="카스테라 고구마 라떼">
+        </div>
+      </div>
+    </div>
+    <!-- NOTICE -->
+    <div class="notice">
+      <div class="notice-line">
+        <div class="inner">
+          <div class="inner-left">
+            <p>공지사항</p>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <a href="javascript:void(0)">Slide 11111111111111111111111111111111111111111111111111111111111111111111111 </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="javascript:void(0)">Slide 2</a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="javascript:void(0)">Slide 3</a>
+                </div>
+              </div>
+            </div>
+            <a class="more" href="javascript:void(0)">
+              <span class="material-symbols-rounded">add</span>
+            </a>
+          </div>
+          <div class="inner-right">
+            <p>스타벅스 프로모션</p>
+            <div class="toggle-promotion">
+              <span class="material-symbols-rounded">arrow_drop_down</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-left"></div>
+        <div class="bg-right"></div>
+      </div>
+      <!-- PROMOTION -->
+      <div class="promotion hide">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/promotion_slide9.jpg" alt="">
+              <a href="javascript:void(0)" class="btn">자세히보기</a>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/promotion_slide8.jpg" alt="">
+              <a href="javascript:void(0)" class="btn">자세히보기</a>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/promotion_slide7.jpg" alt="">
+              <a href="javascript:void(0)" class="btn">자세히보기</a>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/promotion_slide6.jpg" alt="">
+              <a href="javascript:void(0)" class="btn">자세히보기</a>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev">
+          <span class="material-symbols-rounded">arrow_back_ios_new</span>
+        </div>
+        <div class="swiper-button-next">
+          <span class="material-symbols-rounded">arrow_forward_ios</span>
+        </div>
+      </div>
+    </div>
+    <!-- REWARD -->
+    <div class="reward">
+      <div class="inner">
+        <img src="./images/rewards_logo.png" alt="">
+        <div class="text-box">
+          <p>스타벅스만의 특별한 혜택, <b>스타벅스 리워드</b></p>
+          <div class="text-box-top">
+            <div class="left">
+              <p><b>스타벅스 회원이세요?</b>로그인을 통해 나만의 리워드를 확인해보세요.</p>
+              <p><b>스타벅스 회원이 아니세요?</b>가입을 통해 리워드 혜택을 즐기세요.</p>
+            </div>
+            <div class="right">
+              <a href="" class="btn btn-green-reverse">회원가입</a>
+              <a href="" class="btn btn-white">로그인</a>
+            </div>
+          </div>  
+          <div class="text-box-bot">
+            <div class="left">
+              <p>회원 가입 후, 스타벅스 모바일 카드를
+                <b>"나에게 선물하기"로 구매하시고, 편리하게 등록하세요!</b><br>
+                카드를 등록하여 스타벅스 리워드 회원이 되신 후, 첫 구매를 하시면 무료 음료쿠폰을 드립니다!
+              </p>
+            </div>
+            <div class="right">
+              <a href="" class="btn btn-white">스타벅스 모바일 카드 선물하기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SEASON PRODUCT -->
+    <div class="season-product scroll-spy">
+      <div class="inner">
+        <img  class="back-to-position to-right" src="./images/2026_season_product_image_christmas.png" alt="">
+        <div class="text-group back-to-position to-left">
+          <p class="top">
+            허브와 스파이시한 풍미,<br>
+            초콜릿같은 부드러운 피니시가 매력적인 커피
+            <b>크리스마스 블렌드 250g</b>
+          </p>
+          <p class="bottom">진저브레드와 커스터드, 과일타르트와 잘 어울리는 원두로,<br>
+            홀리데이 시즌에 달콤한 순간을 완성해줍니다.<br>
+            연말의 따듯한 순간을 더욱 깊고 풍성하게 채워줄 특별한 한 잔을 만나보세요.</p>
+          <a href="javascript:void(0)" class="btn btn-white">자세히보기</a>
+        </div>
+      </div>
+    </div>
+    <!-- RESERVE -->
+    <div class=" reserve">
+      <div class="inner">
+        <img class="img1" src="./images/260903_pc_reserve_title.png" alt="">
+        <img class="img2" src="./images/260903_pc_reserve_coffee.png" alt="">
+        <a href="javascript:void(0)" class="btn btn-gold">자세히보기</a>
+      </div>
+    </div>
+    <!-- PICK YOUR FAVORITE -->
+    <div class="pick-your-favorite scroll-spy">
+      <div class="inner">
+        <div class="text-group">
+          <img class="back-to-position delay-1 to-right" src="./images/favorite_text1.png" alt="">
+          <img class="back-to-position delay-2 to-right" src="./images/favorite_text2.png" alt="">
+          <a href="javascript:void(0)" class="btn btn-white">자세히보기</a>
+        </div>
+        <img src="./images/2026_pre_autumn_pick_img_260819.png" alt="">
+      </div>
+    </div>
+    <!-- RESERVE MEGAZINE -->
+    <div class="reserve-magazine scroll-spy">
+      <div class="inner">
+        <div class="text-group">
+          <img src="./images/reserve_text_pc.png" alt="">
+          <a href="" class="btn">자세히보기</a>
+        </div>
+        <img src="./images/reserve_visual_pc.png" class="bg back-to-position" alt="">
+      </div>
+    </div>
+    <!-- FIND STORE -->
+    <div class="find-store scroll-spy">
+      <div class="inner">
+        <img src="./images/find_store_texture1.png" class="texture1 " alt="">
+        <img src="./images/find_store_texture2.png" class="texture2 " alt="">
+        <img src="./images/221212_main_story_1.png" class="img1 back-to-position delay-0"alt="">
+        <img src="./images/221212_main_story_2.png" class="img2 back-to-position delay-1" alt="">
+        <div class="text-group">
+          <img src="./images/find_store_text1.png" class="title back-to-position to-left delay-1" alt="">
+          <img src="./images/find_store_text2.png" class="description back-to-position to-left delay-2" alt="">
+          <div class="more">
+            <a href="javascript:void(0);" class="btn back-to-position to-left delay-3">매장찾기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- AWARDS -->
+    <div class="awards">
+      <div class="inner">
+        <div class="awards-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/awards_slide1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide5.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide6.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide7.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide8.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide9.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide10.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- navigation -->
+        <div class="swiper-prev">
+          <span class="material-symbols-rounded">arrow_back</span>
+        </div>
+        <div class="swiper-next">
+          <span class="material-symbols-rounded">arrow_forward</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div id="foot_layout">
+    <div class="inner">
+      <ul class="menu">
+        <li><a href="javascript:void(0)">개인정보처리방침</a></li>
+        <li><a href="javascript:void(0)">개인정보처리방침</a></li>
+        <li><a href="javascript:void(0)">개인정보처리방침</a></li>
+        <li><a href="javascript:void(0)">개인정보처리방침</a></li>
+        <li><a href="javascript:void(0)">개인정보처리방침</a></li>
+      </ul>
+      <div class="btn-group">
+        <a href="javascript:void(0)" class="btn btn-white">찾아오시는 길</a>
+        <a href="javascript:void(0)" class="btn btn-white">신규입점제의</a>
+        <a href="javascript:void(0)" class="btn btn-white">사이트맵</a>
+      </div>
+      <div class="info">
+        <span>사업자등록번호 : 201-81-21515</span>
+        <span>주식회사 에스씨케이컴퍼니 대표이사 : 신동우</span>
+        <span>TEL : 1522-3232</span>
+        <span>개인정보 보호책임자 : 이찬우</span>
+      </div>
+      <p class="copyright">
+        &copy;2026 Starbucks Coffee Company. All Rights Reserved.
+      </p>
+      <img src="./images/starbucks_logo_only_text.png" class="logo" alt="">
+    </div>
+  </div>
+  <div id="to-top">
+    <span class="material-symbols-rounded">
+arrow_upward
+</span>
+  </div>
+</body>
+</html>
